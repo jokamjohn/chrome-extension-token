@@ -1,0 +1,14 @@
+{
+  "name": "Chrome extension token authentication",
+  "version": "1.0",
+  "description": "Build a chrome extension authentication system",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmBo7/bQQEDuAV9XSxm9sjRU+C1z7TlF4g7sB4PL2frtVv3Hn8avKEFEDxvuT6hr7IuekXfj/TQ/OR5wf0Qz17idkfQpFQiMWeN82IJ0dvPZH2MkM7sVvf6EA1mC/6z4RcV6d+8bznSjt9oXU0SSzUSYBlA8anVmkIVWYHyzmzDyHhhn6FNx7LpwhmXmU66WbNX7CxBeFLZIpG8K0b3SxsjiAO5+j02ClObWu7PQFbJihzCaLuzJDQhbBKn7zW9gUBDE6lX70fuVbOkfi1b7sQqhqm4659HEadSOtOkO09JXJeoiHNojBkKE133XkWluiRsOZNLKtvM3kIoJ+cMgzRwIDAQAB",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "externally_connectable": {
+    "matches": ["http://localhost:3000/*"]
+  }
+}
