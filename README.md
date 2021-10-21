@@ -10,4 +10,4 @@
 
 `chrome-extension`: Follow the instructions [here](https://developer.chrome.com/docs/extensions/mv2/getstarted/)
 
-`Frontend`: Navigate to the directory and run `npm run start` or `yarn start`
+`Frontend`: Navigate to the directory and run `npm i` to install the dependencies and then `npm run start` or `yarn start`
